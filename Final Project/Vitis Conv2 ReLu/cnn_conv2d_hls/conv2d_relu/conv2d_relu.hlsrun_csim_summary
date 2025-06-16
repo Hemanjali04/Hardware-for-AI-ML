@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls\\conv2d_relu\\conv2d_relu.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/15/25 19:24:49",
+ "timestampMillis": "1750040689074",
+ "buildStep": {
+  "cmdId": "24f8e9e2-c359-4d67-8d82-62d9f433c457",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls\\conv2d_relu\\logs\\conv2d_relu.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls\\hls_config.cfg --work_dir conv2d_relu ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls\\hls_config.cfg",
+   "--work_dir",
+   "conv2d_relu"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/15/25 19:24:49",
+ "timestampMillis": "1750040689075",
+ "status": {
+  "cmdId": "24f8e9e2-c359-4d67-8d82-62d9f433c457",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/15/25 19:24:52",
+ "timestampMillis": "1750040692872",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "conv2d_relu",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\gerid\\Desktop\\VitisCNNWorkspace\\conv2d_relu.cpp",
+     "C:/Users\\gerid\\Desktop\\VitisCNNWorkspace\\conv2d_relu.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/15/25 19:24:52",
+ "timestampMillis": "1750040692874",
+ "buildStep": {
+  "cmdId": "63430462-6f91-48cf-a6a9-2d32d10d333f",
+  "name": "",
+  "logFile": "C:/Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls\\conv2d_relu\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\gerid\\Desktop\\VitisCNNWorkspace\\cnn_conv2d_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/15/25 19:24:52",
+ "timestampMillis": "1750040692875",
+ "status": {
+  "cmdId": "63430462-6f91-48cf-a6a9-2d32d10d333f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/15/25 19:25:04",
+ "timestampMillis": "1750040704188",
+ "status": {
+  "cmdId": "63430462-6f91-48cf-a6a9-2d32d10d333f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/15/25 19:25:04",
+ "timestampMillis": "1750040704329",
+ "status": {
+  "cmdId": "24f8e9e2-c359-4d67-8d82-62d9f433c457",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/15/25 19:25:04",
+ "timestampMillis": "1750040704329",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/15/25 19:25:04",
+ "timestampMillis": "1750040704330",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
