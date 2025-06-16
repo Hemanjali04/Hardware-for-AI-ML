@@ -1,0 +1,13 @@
+{
+  "name": "cnn_conv2d_hls",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "conv2d_relu"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}
